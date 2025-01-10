@@ -1,6 +1,6 @@
 # MVC5Course
 
-![專案圖片](https://github.com/vince115/MVC5Course/blob/main/MVC5Course/docs/images/MVC5_Staff_example.jpg "Project Image")
+![專案圖片](https://github.com/vince115/MVC5Course/blob/main/docs/images/MVC5_Staff_example.jpg "Project Image")
 
 ### 資料模型
 Models/Movie.cs
