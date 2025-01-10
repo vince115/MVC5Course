@@ -1,0 +1,37 @@
+﻿@model MVC5Course.Models.Staff
+
+@{
+    ViewBag.Title = "詳細資料";
+}
+
+<h2>詳細資料</h2>
+
+<div>
+    <h4>員工資料</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Position)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Position)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Salary)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Salary)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    @Html.ActionLink("編輯", "Edit", new { id = Model.Id }, new { @class = "btn btn-warning" }) |
+    @Html.ActionLink("返回列表", "Index", null, new { @class = "btn btn-secondary" })
+</div>
